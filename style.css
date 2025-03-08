@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer .box {
+    width: 200px;
+    margin: 10px;
+}
+
+footer .box h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer .box .about,
+footer .box ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+footer .box ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .box ul li {
+    margin-bottom: 10px;
+}
+
+footer .box ul li button {
+    background-color: #ffff00;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-family: 'Geoform', Arial, sans-serif; /* Apply Geoform font */
+}
+
+footer .box ul li button:hover {
+    background-color: #ffd700;
+}
+
+footer .box ul li .contact-info {
+    background-color: white;
+    color: #333;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+footer .box ul li .contact-info div {
+    margin-bottom: 5px;
+}
+
+footer .box ul li .contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer .box ul li .contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer .box ul li a {
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+footer .box ul li a:hover {
+    color: #ddd;
+}
